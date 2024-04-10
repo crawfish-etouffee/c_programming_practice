@@ -1,0 +1,4 @@
+all: hello_world
+
+clean:
+	$(RM) hello_world

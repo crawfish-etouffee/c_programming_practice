@@ -1,0 +1,29 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     'tests/bin/quetests'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _suitesetup, symObjAddr: 0x0, symBinAddr: 0x100001210, symSize: 0x20 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _q, symObjAddr: 0x2600, symBinAddr: 0x1000031A0, symSize: 0x0 }
+  - { offsetInCU: 0x77, offset: 0x77, size: 0x8, addend: 0x0, symName: _suite_queuetests_extra, symObjAddr: 0xB70, symBinAddr: 0x100003000, symSize: 0x0 }
+  - { offsetInCU: 0x1FA, offset: 0x1FA, size: 0x8, addend: 0x0, symName: _suite_queuetests_meta, symObjAddr: 0xBD8, symBinAddr: 0x100003068, symSize: 0x0 }
+  - { offsetInCU: 0x235, offset: 0x235, size: 0x8, addend: 0x0, symName: _suite_queuetests_ptr, symObjAddr: 0xCF8, symBinAddr: 0x100003188, symSize: 0x0 }
+  - { offsetInCU: 0x24F, offset: 0x24F, size: 0x8, addend: 0x0, symName: _queuetests_create_extra, symObjAddr: 0xBE8, symBinAddr: 0x100003078, symSize: 0x0 }
+  - { offsetInCU: 0x264, offset: 0x264, size: 0x8, addend: 0x0, symName: _queuetests_create_meta, symObjAddr: 0xC50, symBinAddr: 0x1000030E0, symSize: 0x0 }
+  - { offsetInCU: 0x2B2, offset: 0x2B2, size: 0x8, addend: 0x0, symName: _queuetests_create_ptr, symObjAddr: 0xD00, symBinAddr: 0x100003190, symSize: 0x0 }
+  - { offsetInCU: 0x2CC, offset: 0x2CC, size: 0x8, addend: 0x0, symName: _queuetests_adding_elements_extra, symObjAddr: 0xC70, symBinAddr: 0x100003100, symSize: 0x0 }
+  - { offsetInCU: 0x2E1, offset: 0x2E1, size: 0x8, addend: 0x0, symName: _queuetests_adding_elements_meta, symObjAddr: 0xCD8, symBinAddr: 0x100003168, symSize: 0x0 }
+  - { offsetInCU: 0x2F6, offset: 0x2F6, size: 0x8, addend: 0x0, symName: _queuetests_adding_elements_ptr, symObjAddr: 0xD08, symBinAddr: 0x100003198, symSize: 0x0 }
+  - { offsetInCU: 0x2FF, offset: 0x2FF, size: 0x8, addend: 0x0, symName: _suitesetup, symObjAddr: 0x0, symBinAddr: 0x100001210, symSize: 0x20 }
+  - { offsetInCU: 0x314, offset: 0x314, size: 0x8, addend: 0x0, symName: _suiteteardown, symObjAddr: 0x20, symBinAddr: 0x100001230, symSize: 0x20 }
+  - { offsetInCU: 0x329, offset: 0x329, size: 0x8, addend: 0x0, symName: _queuetests_create_jmp, symObjAddr: 0x40, symBinAddr: 0x100001250, symSize: 0x20 }
+  - { offsetInCU: 0x33E, offset: 0x33E, size: 0x8, addend: 0x0, symName: _queuetests_create_impl, symObjAddr: 0x60, symBinAddr: 0x100001270, symSize: 0x140 }
+  - { offsetInCU: 0x3D3, offset: 0x3D3, size: 0x8, addend: 0x0, symName: _queuetests_adding_elements_jmp, symObjAddr: 0x1A0, symBinAddr: 0x1000013B0, symSize: 0x20 }
+  - { offsetInCU: 0x3E8, offset: 0x3E8, size: 0x8, addend: 0x0, symName: _queuetests_adding_elements_impl, symObjAddr: 0x1C0, symBinAddr: 0x1000013D0, symSize: 0x87E }
+  - { offsetInCU: 0x26, offset: 0x786, size: 0x8, addend: 0x0, symName: _q_create, symObjAddr: 0x0, symBinAddr: 0x100001C50, symSize: 0x70 }
+  - { offsetInCU: 0x33, offset: 0x793, size: 0x8, addend: 0x0, symName: _q_create, symObjAddr: 0x0, symBinAddr: 0x100001C50, symSize: 0x70 }
+  - { offsetInCU: 0x69, offset: 0x7C9, size: 0x8, addend: 0x0, symName: _q_empty, symObjAddr: 0x70, symBinAddr: 0x100001CC0, symSize: 0x20 }
+  - { offsetInCU: 0x91, offset: 0x7F1, size: 0x8, addend: 0x0, symName: _q_full, symObjAddr: 0x90, symBinAddr: 0x100001CE0, symSize: 0x20 }
+  - { offsetInCU: 0xB9, offset: 0x819, size: 0x8, addend: 0x0, symName: _q_destroy, symObjAddr: 0xB0, symBinAddr: 0x100001D00, symSize: 0x30 }
+  - { offsetInCU: 0xDD, offset: 0x83D, size: 0x8, addend: 0x0, symName: _q_enqueue, symObjAddr: 0xE0, symBinAddr: 0x100001D30, symSize: 0x80 }
+  - { offsetInCU: 0x113, offset: 0x873, size: 0x8, addend: 0x0, symName: _q_dequeue, symObjAddr: 0x160, symBinAddr: 0x100001DB0, symSize: 0x78 }
+...
